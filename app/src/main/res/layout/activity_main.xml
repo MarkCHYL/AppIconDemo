@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图标一"
+        android:onClick="changeOne"/>
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="恢复图标一"
+        android:onClick="changeTwo"/>
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图标二"
+        android:onClick="changeThree"/>
+
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="恢复图标二"
+        android:onClick="changeback"/>
+
+    <Button
+        android:id="@+id/btnNone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="啥事不做"
+        android:onClick="changeNone"/>
+
+</LinearLayout>
